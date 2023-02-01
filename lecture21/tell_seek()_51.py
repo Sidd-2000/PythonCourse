@@ -1,0 +1,7 @@
+f=open("myfile.txt","w")
+# f.seek(7)
+# print(f.tell())
+# print(f.read(10))
+f.write("hello siddharth")
+f.truncate(10)
+f.close()

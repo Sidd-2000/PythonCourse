@@ -10,9 +10,11 @@
 
 
 english=input('Enter the word')
-arr=[]
-for i in len(english):
-  print(i)
-  # arr[i]=english[i:i+1]
-
-print(arr)
+coding=True
+if(coding):
+  if(len(english)>=3):
+    r1="sdf"
+    r2="sfs"
+    english=r1+english[1:]+english[:1]+r2
+    print(english)
+    
